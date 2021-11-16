@@ -22,8 +22,8 @@ def get_mosaic_image(image, mosaic_size=10, gradation=4):
 
 
 def set_color(new_color, tensor, mosaic_size, i, j):
-    for sector_i in range(i, (i + mosaic_size) % len(tensor)):
-        for sector_j in range(j, (j + mosaic_size) % len(tensor[0])):
+    for sector_i in range(i, (i + mosaic_size) % len(tensor) + 1):
+        for sector_j in range(j, (j + mosaic_size) % len(tensor[0]) + 1):
             for c in range(3):
                 tensor[sector_i][sector_j][c] = new_color
 
