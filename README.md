@@ -8,3 +8,6 @@
   [Исходная яичница](https://github.com/HeavyPunk/Practic_16.11.21/blob/main/input.jpg)  
 Полученное изображение:    
 [Повидавшая виды яичница](https://github.com/HeavyPunk/Practic_16.11.21/blob/main/out.png)
+
+Для выделенного метода был написан небольшой doctest:  
+[Его величество doctest](https://github.com/HeavyPunk/Practic_16.11.21/blob/main/doctest.png)
